@@ -1,0 +1,22 @@
+// MyDll.cpp: implementation of the MyDll class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "MyDll.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+void Init()
+{
+	MessageBox(0,"Init","Init",MB_OK);
+}
+void Destroy()
+{
+	MessageBox(0,"Destroy","Destroy",MB_OK);
+}
+void ExportFunction()
+{
+	MessageBox(0,"ExportFunction","ExportFunction",MB_OK);
+}
